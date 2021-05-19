@@ -1,8 +1,8 @@
 ## pico-emitter
-Extremely tiny (~500 bytes or 0.5 k) event emitter.
+Extremely tiny (< 300 bytes or 0.3 k) event emitter.
 
 
-`pico-emitter` utilizes native `EventTarget` and `CustomEvent` to provide performant and small implementation.
+`pico-emitter` utilizes native `EventTarget` and `Event` to provide performant and small implementation.
 
 ## Install
 ```sh
