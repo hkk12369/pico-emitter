@@ -1,0 +1,28 @@
+{
+  "name": "pico-emitter",
+  "version": "1.0.0",
+  "description": "A very small event emitter using EventTarget and CustomEvent",
+  "type": "module",
+  "main": "index.js",
+  "exports": "./index.js",
+  "author": "Hitesh Khandelwal",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hkk12369/pico-emitter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hkk12369/pico-emitter/issues"
+  },
+  "homepage": "https://github.com/hkk12369/pico-emitter#readme",
+  "keywords": [
+    "pico-emitter",
+    "emitter",
+    "event",
+    "event-emitter",
+    "pubsub",
+    "tiny-emitter",
+    "eventemitter",
+    "eventtarget"
+  ]
+}
