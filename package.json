@@ -1,6 +1,6 @@
 {
   "name": "pico-emitter",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A very small event emitter using EventTarget and CustomEvent",
   "type": "module",
   "main": "index.js",
