@@ -1,6 +1,6 @@
 export default class PicoEmitter {
 	constructor() {
-		this._t = new EventTarget();
+		this._t = typeof EventTarget !== 'undefined' ? new EventTarget() : document.createDocumentFragment();
 	}
 	on(name, callback, options) {
 		callback._p = (e) => callback.apply(null, e._p);
